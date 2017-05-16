@@ -18,7 +18,7 @@ GetME_PVals=function(m){
   # get p-values from the t-distribution using the t-values and approximated degrees of freedom
   coefs$p.KR <- round(2 * (1 - pt(abs(coefs$t.value), df.KR)),6); #coefs #Everything is significantly different from UB
   return(coefs)
-}#Get approximate p-vals (http://mindingthebrain.blogspot.com/2014/02/three-ways-to-get-parameter-specific-p.html)
+}
 
 
 ####1. Setup data####
